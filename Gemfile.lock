@@ -284,6 +284,7 @@ DEPENDENCIES
   paperclip (~> 5.0.0.beta1)
   puma (~> 3.0)
   rails (~> 5.0.2)
+  rake (= 12.3.2)
   responders
   rolify
   sass-rails (~> 5.0)
