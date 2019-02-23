@@ -1,0 +1,33 @@
+{
+  "platform": "ubuntu",
+  "platform_version": "bionic",
+  "set_fqdn": "myserver.com",
+  "ark": {
+    "prefix_root": "/usr/local/src"
+  },
+  "rvm": {
+    "default_ruby": "ruby-2.6.0",
+    "rubies": ["ruby-2.6.0p0"],
+    "group_users": ["worstation2","root"],
+    "global_gems": [
+      { "name": "passenger"},
+      { "name": "rails", "version": "5.0.7" }  
+    ]
+  },
+  "users": ["worstation2"],
+  "run_list": [
+    "recipe[apt]",
+    "recipe[build-essential]",
+    "recipe[ark]",
+    "recipe[hostname]",
+    "recipe[fail2ban]",
+    "recipe[apt-periodic]",
+    "recipe[curl]",
+    "recipe[user::data_bag]",
+    "recipe[rvm::system]",
+    "recipe[percona::client]",
+    "recipe[percona::server]",
+    "recipe[database]",
+    "recipe[tool]"
+  ]
+}

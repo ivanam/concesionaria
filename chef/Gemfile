@@ -1,0 +1,23 @@
+# Gemfile
+source "https://rubygems.org"
+
+# chef
+# https://github.com/opscode/chef
+gem 'chef'
+#, '11.10.4'
+
+# knife-solo
+# http://matschaffer.github.io/knife-solo/
+gem 'knife-solo', '0.4.2'
+
+# knife-solo_data_bag
+# http://thbishop.com/knife-solo_data_bag/
+gem 'knife-solo_data_bag', '1.0.1'
+
+# librarian-chef
+# https://github.com/applicationsonline/librarian-chef
+gem 'librarian-chef', '0.0.4'
+
+
+gem 'json', github: 'flori/json', branch: 'v1.8'
+

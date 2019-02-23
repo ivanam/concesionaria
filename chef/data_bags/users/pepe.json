@@ -1,0 +1,15 @@
+{
+  "id": "worstation2",
+  "comment": "user UNIX",
+  "groups": [
+    "adm",
+    "sudo"
+  ],
+  "create_group": true,
+  "shell": "/bin/bash",
+  "ssh_keygen": true,
+  "ssh_keys": [
+    "ssh-rsa 1",
+    "ssh-rsa 2"
+  ]
+}
