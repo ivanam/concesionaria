@@ -13,7 +13,7 @@ gem 'mysql2'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 
-gem 'rake', '12.3.1'
+gem 'rake', github: 'ruby/rake'
 
 
 
