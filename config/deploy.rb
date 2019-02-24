@@ -2,7 +2,6 @@
 
 # config valid only for Capistrano 3.1
 lock '3.11.0'
-require "bundler/capistrano"
 
 set :application, 'ergos'
 set :repo_url, 'git@github.com:ivanam/concesionaria.git'
