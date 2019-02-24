@@ -17,7 +17,7 @@ gem 'rake', github: 'ruby/rake'
 
 gem 'rvm-capistrano'
 
-gem 'concurrent-ruby', require: 'concurrent'
+gem 'concurrent-ruby','~> 1.1.4' ,require: 'concurrent'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

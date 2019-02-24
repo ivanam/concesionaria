@@ -279,7 +279,7 @@ DEPENDENCIES
   capistrano-rbenv (~> 2.1, >= 2.1.4)
   chartjs-ror
   coffee-rails (~> 4.2)
-  concurrent-ruby
+  concurrent-ruby (~> 1.1.4)
   devise
   font-awesome-rails
   font-awesome-sass (~> 5.0.9)
