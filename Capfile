@@ -26,6 +26,7 @@ require 'capistrano/deploy'
 require 'capistrano/rails'
 require 'capistrano/passenger'
 require 'capistrano/rbenv'
+require "rvm/capistrano"
 
 set :rbenv_type, :user
 set :rbenv_ruby, '2.6.0'
