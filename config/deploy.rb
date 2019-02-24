@@ -5,6 +5,7 @@ set :application, 'ergos'
 set :repo_url, 'git@github.com:ivanam/concesionaria.git'
 set :deploy_to, "/home/deploy/#{fetch :application}"
 
+require "bundler/capistrano"
 # # Default branch is :master
 # # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }
 
