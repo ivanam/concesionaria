@@ -15,7 +15,7 @@ gem 'puma', '~> 3.0'
 
 gem 'rake', github: 'ruby/rake'
 
-
+gem 'rvm-capistrano'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
