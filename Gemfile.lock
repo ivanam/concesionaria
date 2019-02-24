@@ -109,7 +109,7 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.12.2)
-    concurrent-ruby (1.1.4)
+    concurrent-ruby (1.0.5)
     crass (1.0.4)
     devise (4.6.1)
       bcrypt (~> 3.0)
@@ -279,7 +279,7 @@ DEPENDENCIES
   capistrano-rbenv (~> 2.1, >= 2.1.4)
   chartjs-ror
   coffee-rails (~> 4.2)
-  concurrent-ruby (~> 1.1.4)
+  concurrent-ruby (~> 1.0.5)
   devise
   font-awesome-rails
   font-awesome-sass (~> 5.0.9)
